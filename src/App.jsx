@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import First from "./First.jsx";
 import Into from "./Into.jsx";
 
@@ -18,8 +18,6 @@ const App = () => {
                     <Route exact path="/intro" element={<Into/>}/>
                 </Routes>
             </Router>
-
-
         </>
     );
 };
