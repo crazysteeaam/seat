@@ -9,7 +9,7 @@ const Into = () => {
     const [markdown, setMarkdown] = useState('');
 
     useEffect(() => {
-        fetch('/intro.md')
+        fetch('./intro.md')
             .then((response) => response.text())
             .then((text) => {
                 setMarkdown(text);
