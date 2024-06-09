@@ -29,7 +29,7 @@ const First = () => {
     const [score, setScore] = useState(0);
     const [iter, setIter] = useState(800);
     const [heightWeight, setHeightWeight] = useState(1);
-    const [energyWeight, setEnergyWeight] = useState(1000);
+    const [energyWeight, setEnergyWeight] = useState(4000);
     const [allowDownload, setAllowDownload] = useState(false);
     const ref1 = useRef(null);
     const ref2 = useRef(null);
@@ -195,7 +195,7 @@ const First = () => {
                         身高权重：<InputNumber size="medium" min={1} defaultValue={1} onChange={onChangeHeight}/>
                     </div>
                     <div className="inputele">
-                        活跃度权重：<InputNumber size="medium" min={1} defaultValue={1000} onChange={onChangeEnergy}/>
+                        活跃度权重：<InputNumber size="medium" min={1} defaultValue={4000} onChange={onChangeEnergy}/>
                     </div>
                 </div>
             </div>
