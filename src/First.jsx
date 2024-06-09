@@ -96,7 +96,7 @@ const First = () => {
     };
 
     const props = {
-        action: 'http://124.222.113.8:5000/upload?rows=' + rows + '&cols=' + cols + '&iter=' + iter + '&heightWeight=' + heightWeight + '&energyWeight=' + energyWeight,
+        action: 'https://donghua.website:5000/upload?rows=' + rows + '&cols=' + cols + '&iter=' + iter + '&heightWeight=' + heightWeight + '&energyWeight=' + energyWeight,
         accept: '/xls,.xlsx',
         maxCount: 1,
         method: 'post',
