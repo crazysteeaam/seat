@@ -1,0 +1,28 @@
+.seat {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: move;
+    border-radius: 4px;
+    user-select: none;
+
+    .name {
+        width: 70px;
+        height: 70%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .height {
+        width: 70px;
+        height: 30%;
+        font-size: 12px;
+    }
+}

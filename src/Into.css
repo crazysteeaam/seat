@@ -1,0 +1,10 @@
+.md{
+    text-align: left;
+    width:80%;
+    margin:0 auto;
+    img{
+        display: flex;
+        margin: 0 auto;
+        align-content: center;
+    }
+}
